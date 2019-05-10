@@ -120,10 +120,10 @@ resources:
 - name: nsx-t-gen-pipeline
   type: git
   source:
-    uri: https://github.com/vmware/nsx-t-datacenter-ci-pipelines.git
+    uri: https://github.com/wbean1/nsx-t-datacenter-ci-pipelines.git
     params:
       disable_git_lfs: true
-    branch: ((nsx_t_pipeline_branch))
+    branch: nsxt_2.3.0
 
 - name: nsxt-ansible
   type: git
